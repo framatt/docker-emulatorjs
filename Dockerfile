@@ -69,7 +69,7 @@ RUN \
   echo "**** grab libretro blobs ****" && \
   curl -o \
     /tmp/custom-cores.tar.gz -L \
-    "https://github.com/linuxserver/libretro-cores/archive/master.tar.gz" && \
+    "http://102.220.121.1:8899/libretro-cores-master.tar.gz" && \
   tar xf \
     /tmp/custom-cores.tar.gz -C \
     /emulatorjs/frontend/ --strip-components=1 && \
